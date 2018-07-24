@@ -1,0 +1,103 @@
+---
+destination:
+    description: Data files for Galaxy Australia training materials
+    name: Galaxy Australia Training Material
+    synopsis: Data files for all of the Galaxy Australia training tutorials in various sub folders.
+    type: library
+items:
+    - name: Assembly
+      description: "Training data files for the various assembly tutorials"
+      items:
+        - name: Microbial Assembly
+          description: "Training data files for the Microbial Assembly tutorial"
+          items:
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.582600
+              src: url
+              url: https://zenodo.org/api/files/287966da-5411-4f79-8cfb-0ffa84d0d6cc/mutant_R1.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.582600
+              src: url
+              url: https://zenodo.org/api/files/287966da-5411-4f79-8cfb-0ffa84d0d6cc/mutant_R2.fastq
+    - name: Annotation
+      description: "Training data files for the Annotation tutorials"
+      items:
+        - name: Microbial Annotation
+          description: "Training data files for the Microbial Annotation tutorial"
+          items:
+            - url: https://zenodo.org/record/582600/files/wildtype.fna
+              src: url
+              ext: fasta
+              info: https://zenodo.org/record/582600
+    - name: Variant Calling
+      description: "Training data files for the Variant Calling Tutorials"
+      items:
+        - name: Microbial Variant Calling
+          description: "Training data files for the Microbial Variant Calling Tutorial"
+          items:
+            - ext: fasta
+              info: https://doi.org/10.5281/zenodo.582600
+              src: url
+              url: https://zenodo.org/api/files/287966da-5411-4f79-8cfb-0ffa84d0d6cc/wildtype.fna
+            - ext: genbank
+              info: https://doi.org/10.5281/zenodo.582600
+              src: url
+              url: https://zenodo.org/api/files/287966da-5411-4f79-8cfb-0ffa84d0d6cc/wildtype.gbk
+            - ext: gff3
+              info: https://doi.org/10.5281/zenodo.582600
+              src: url
+              url: https://zenodo.org/api/files/287966da-5411-4f79-8cfb-0ffa84d0d6cc/wildtype.gff
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.582600
+              src: url
+              url: https://zenodo.org/api/files/287966da-5411-4f79-8cfb-0ffa84d0d6cc/mutant_R1.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.582600
+              src: url
+              url: https://zenodo.org/api/files/287966da-5411-4f79-8cfb-0ffa84d0d6cc/mutant_R2.fastq
+        - name: Human Variant Calling
+          description: "Training data files for the Human Variant Calling Tutorial"
+          items:
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1319858
+              src: url
+              url: https://zenodo.org/record/1319858/files/NA12878.GAIIx.exome_chr22.1E6reads.76bp.fastq
+    - name: RNA-Seq
+      description: "Training data files for the various RNA-Seq tutorials"
+      items:
+        - name: Microbial RNA-Seq
+          description: "Training data files for the Microbial RNA-Seq tutorial"
+          items:
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1311269
+              src: url
+              url: https://zenodo.org/record/1311269/files/E_coli_aMG1.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1311269
+              src: url
+              url: https://zenodo.org/record/1311269/files/E_coli_aMG2.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1311269
+              src: url
+              url: https://zenodo.org/record/1311269/files/E_coli_aMG3.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1311269
+              src: url
+              url: https://zenodo.org/record/1311269/files/E_coli_Lb1.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1311269
+              src: url
+              url: https://zenodo.org/record/1311269/files/E_coli_Lb2.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1311269
+              src: url
+              url: https://zenodo.org/record/1311269/files/E_coli_Lb3.fastq
+            - ext: fasta
+              info: https://doi.org/10.5281/zenodo.1311269
+              src: url
+              url: https://zenodo.org/record/1311269/files/Ecoli_k12.fasta
+            - ext: gtf
+              info: https://doi.org/10.5281/zenodo.1311269
+              src: url
+              url: https://zenodo.org/record/1311269/files/Ecoli_k12.gtf
+    - name: Metagenomics
