@@ -1,0 +1,50 @@
+---
+destination:
+    description: Short description of data library
+    name: Name of Data Library
+    synopsis: Longer description of data library
+    type: library
+items:
+    # Each item in the items array with a 'name' tag is a subfolder. Anything with a 'src' tag in the array is a file.
+    # If there is a subfolder, it requires 'description' and 'items' tag as well as the name.
+    - name: Sub-folder name
+      description: "Description of sub folder and contents"
+      items:
+        - name: Sub-sub-folder name
+          description: "Description of sub-sub folder and contents"
+          items:
+            # The following are examples of files. Note the 'src' tag. The files will be called the entire url.
+            # This is for provenance issues. These files will be created in the sub-sub-folder. ext is the galaxy
+            # file type for each file.
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.582600
+              src: url
+              url: https://zenodo.org/api/files/287966da-5411-4f79-8cfb-0ffa84d0d6cc/mutant_R1.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.582600
+              src: url
+              url: https://zenodo.org/api/files/287966da-5411-4f79-8cfb-0ffa84d0d6cc/mutant_R2.fastq
+            - ext: fasta
+              info: https://doi.org/10.5281/zenodo.582600
+              src: url
+              url: https://zenodo.org/api/files/287966da-5411-4f79-8cfb-0ffa84d0d6cc/wildtype.fna
+            - ext: genbank
+              info: https://doi.org/10.5281/zenodo.582600
+              src: url
+              url: https://zenodo.org/api/files/287966da-5411-4f79-8cfb-0ffa84d0d6cc/wildtype.gbk
+            - ext: gff3
+              info: https://doi.org/10.5281/zenodo.582600
+              src: url
+              url: https://zenodo.org/api/files/287966da-5411-4f79-8cfb-0ffa84d0d6cc/wildtype.gff
+        # This file is created in the sub-folder
+        - url: https://zenodo.org/record/1257429/files/Ecoli_C_assembly.fna
+          src: url
+          ext: fasta
+          info: https://zenodo.org/record/1257429
+    - name: Another sub folder
+      description: "description of another sub-folder"
+      items:
+        - url: https://zenodo.org/record/582600/files/wildtype.fna
+          src: url
+          ext: fasta
+          info: https://zenodo.org/record/582600
