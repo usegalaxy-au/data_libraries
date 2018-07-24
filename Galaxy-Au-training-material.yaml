@@ -101,3 +101,39 @@ items:
               src: url
               url: https://zenodo.org/record/1311269/files/Ecoli_k12.gtf
     - name: Metagenomics
+      description: "Training data files for the various Metagenomics tutorials"
+      items:
+        - name: 16S Metagenomics
+          description: "Training data files for the 16S Metagenomics tutorial"
+          items:
+            - ext: fasta
+              info: https://doi.org/10.5281/zenodo.1319864
+              src: url
+              url: https://zenodo.org/record/1319864/files/core_set_aligned.fasta
+            - ext: fasta
+              info: https://doi.org/10.5281/zenodo.1319864
+              src: url
+              url: https://zenodo.org/record/1319864/files/gold.fasta
+            - ext: fasta
+              info: https://doi.org/10.5281/zenodo.1319864
+              src: url
+              url: https://zenodo.org/record/1319864/files/seqs.fasta
+    - name: Sample Identification
+      description: "Training data files for the Sample Identification tutorial"
+      items:
+        - ext: fastqsanger
+          info: https://doi.org/10.5281/zenodo.1319181
+          src: url
+          url: https://zenodo.org/record/1319181/files/ent_R1.fq
+        - ext: fastqsanger
+          info: https://doi.org/10.5281/zenodo.1319181
+          src: url
+          url: https://zenodo.org/record/1319181/files/ent_R2.fq
+        - ext: fastqsanger
+          info: https://doi.org/10.5281/zenodo.1319181
+          src: url
+          url: https://zenodo.org/record/1319181/files/staph_R1.fq
+        - ext: fastqsanger
+          info: https://doi.org/10.5281/zenodo.1319181
+          src: url
+          url: https://zenodo.org/record/1319181/files/staph_R2.fq
