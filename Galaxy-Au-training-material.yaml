@@ -100,6 +100,103 @@ items:
               info: https://doi.org/10.5281/zenodo.1311269
               src: url
               url: https://zenodo.org/record/1311269/files/Ecoli_k12.gtf
+        - name: Fly RNA-Seq
+          description: "Training data files for the Fly RNA-Seq tutorial"
+          items:
+            - ext: gtf
+              info: https://doi.org/10.5281/zenodo.1409427
+              src: url
+              url: https://zenodo.org/record/1409427/files/ensembl_dm3.chr4.gtf
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1409427
+              src: url
+              url: https://zenodo.org/record/1409427/files/KO_01_R1.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1409427
+              src: url
+              url: https://zenodo.org/record/1409427/files/KO_01_R2.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1409427
+              src: url
+              url: https://zenodo.org/record/1409427/files/KO_02_R1.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1409427
+              src: url
+              url: https://zenodo.org/record/1409427/files/KO_02_R2.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1409427
+              src: url
+              url: https://zenodo.org/record/1409427/files/KO_03_R1.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1409427
+              src: url
+              url: https://zenodo.org/record/1409427/files/KO_03_R2.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1409427
+              src: url
+              url: https://zenodo.org/record/1409427/files/WT_01_R1.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1409427
+              src: url
+              url: https://zenodo.org/record/1409427/files/WT_01_R2.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1409427
+              src: url
+              url: https://zenodo.org/record/1409427/files/WT_02_R1.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1409427
+              src: url
+              url: https://zenodo.org/record/1409427/files/WT_02_R2.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1409427
+              src: url
+              url: https://zenodo.org/record/1409427/files/WT_03_R1.fastq
+            - ext: fastqsanger
+              info: https://doi.org/10.5281/zenodo.1409427
+              src: url
+              url: https://zenodo.org/record/1409427/files/WT_03_R2.fastq
+        - name: Yeast RNA-Seq
+          description: "Training data files for the Yeast RNA-Seq tutorial"
+          items:
+            - ext: fastqsanger
+              src: url
+              url: https://swift.rc.nectar.org.au:8888/v1/AUTH_a3929895f9e94089ad042c9900e1ee82/RNAseqDGE_ADVNCD/batch1_chrI_1.fastq
+            - ext: fastqsanger
+              src: url
+              url: https://swift.rc.nectar.org.au:8888/v1/AUTH_a3929895f9e94089ad042c9900e1ee82/RNAseqDGE_ADVNCD/batch1_chrI_2.fastq
+            - ext: fastqsanger
+              src: url
+              url: https://swift.rc.nectar.org.au:8888/v1/AUTH_a3929895f9e94089ad042c9900e1ee82/RNAseqDGE_ADVNCD/batch2_chrI_1.fastq
+            - ext: fastqsanger
+              src: url
+              url: https://swift.rc.nectar.org.au:8888/v1/AUTH_a3929895f9e94089ad042c9900e1ee82/RNAseqDGE_ADVNCD/batch2_chrI_2.fastq
+            - ext: fastqsanger
+              src: url
+              url: https://swift.rc.nectar.org.au:8888/v1/AUTH_a3929895f9e94089ad042c9900e1ee82/RNAseqDGE_ADVNCD/batch3_chrI_1.fastq
+            - ext: fastqsanger
+              src: url
+              url: https://swift.rc.nectar.org.au:8888/v1/AUTH_a3929895f9e94089ad042c9900e1ee82/RNAseqDGE_ADVNCD/batch3_chrI_2.fastq
+            - ext: fastqsanger
+              src: url
+              url: https://swift.rc.nectar.org.au:8888/v1/AUTH_a3929895f9e94089ad042c9900e1ee82/RNAseqDGE_ADVNCD/chem1_chrI_1.fastq
+            - ext: fastqsanger
+              src: url
+              url: https://swift.rc.nectar.org.au:8888/v1/AUTH_a3929895f9e94089ad042c9900e1ee82/RNAseqDGE_ADVNCD/chem1_chrI_2.fastq
+            - ext: fastqsanger
+              src: url
+              url: https://swift.rc.nectar.org.au:8888/v1/AUTH_a3929895f9e94089ad042c9900e1ee82/RNAseqDGE_ADVNCD/chem2_chrI_1.fastq
+            - ext: fastqsanger
+              src: url
+              url: https://swift.rc.nectar.org.au:8888/v1/AUTH_a3929895f9e94089ad042c9900e1ee82/RNAseqDGE_ADVNCD/chem2_chrI_2.fastq
+            - ext: fastqsanger
+              src: url
+              url: https://swift.rc.nectar.org.au:8888/v1/AUTH_a3929895f9e94089ad042c9900e1ee82/RNAseqDGE_ADVNCD/chem3_chrI_1.fastq
+            - ext: fastqsanger
+              src: url
+              url: https://swift.rc.nectar.org.au:8888/v1/AUTH_a3929895f9e94089ad042c9900e1ee82/RNAseqDGE_ADVNCD/chem3_chrI_2.fastq
+            - ext: fastqsanger
+              src: url
+              url: https://swift.rc.nectar.org.au:8888/v1/AUTH_a3929895f9e94089ad042c9900e1ee82/RNAseqDGE_ADVNCD/genes.gtf
     - name: Metagenomics
       description: "Training data files for the various Metagenomics tutorials"
       items:
