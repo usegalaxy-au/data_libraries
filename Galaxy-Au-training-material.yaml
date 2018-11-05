@@ -200,7 +200,7 @@ items:
     - name: Metagenomics
       description: "Training data files for the various Metagenomics tutorials"
       items:
-        - name: 16S Metagenomics
+        - name: Marine 16S Metagenomics
           description: "Training data files for the 16S Metagenomics tutorial"
           items:
             - ext: fasta
@@ -215,6 +215,29 @@ items:
               info: https://doi.org/10.5281/zenodo.1319864
               src: url
               url: https://zenodo.org/record/1319864/files/seqs.fasta
+        - name: Soil 16S Metagenomics
+          description: "Traing data files for the Soil 16S Metagenomics tutorial with Mothur"
+          items:
+            - ext: fasta
+              info: https://doi.org/10.5281/zenodo.815875
+              src: url
+              url: https://zenodo.org/record/815875/files/SRR531818_pampa.fasta
+            - ext: fasta
+              info: https://doi.org/10.5281/zenodo.815875
+              src: url
+              url: https://zenodo.org/record/815875/files/SRR651839_anguil.fasta
+            - ext: fasta
+              info: https://doi.org/10.5281/zenodo.815875
+              src: url
+              url: https://zenodo.org/record/815875/files/silva.v4.fasta
+            - ext: fasta
+              info: https://doi.org/10.5281/zenodo.815875
+              src: url
+              url: https://zenodo.org/record/815875/files/trainset16_022016.pds.fasta
+            - ext: mothur.ref.taxonomy
+              info: https://doi.org/10.5281/zenodo.815875
+              src: url
+              url: https://zenodo.org/record/815875/files/trainset16_022016.pds.tax
     - name: Sample Identification
       description: "Training data files for the Sample Identification tutorial"
       items:
